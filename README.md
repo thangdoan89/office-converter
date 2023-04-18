@@ -1,10 +1,9 @@
-# Office To HTML
+# Office Converter <!-- omit in toc -->
 
 [![PyPI - Version](https://img.shields.io/pypi/v/office-converter.svg)](https://pypi.org/project/office-converter)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/office-converter.svg)](https://pypi.org/project/office-converter)
 
 -----
-
 **Table of Contents**
 
 - [Installation](#installation)
