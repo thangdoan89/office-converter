@@ -8,6 +8,7 @@ class DocumentConverter(Converter):
 
         with zipfile.ZipFile(self.file_path) as unzipped_docx:
             result = unzipped_docx.namelist()
+            print(result)
             document_data = unzipped_docx.read('word/document.xml')
             document_data = BeautifulSoup(document_data, "xml")
             output_children = ''
