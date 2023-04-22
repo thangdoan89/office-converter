@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Parser(ABC):
+class Converter(ABC):
     file_path: str
 
     @abstractmethod

@@ -1,8 +1,8 @@
 import zipfile
 from bs4 import BeautifulSoup
-from office_converter.common.core.base_parser import Parser
+from office_converter.common.core.base_converter import Converter
 
-class DocumentParser(Parser):
+class DocumentConverter(Converter):
 
     def toHtml(self) -> str:
 
