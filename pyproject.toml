@@ -168,9 +168,9 @@ exclude_lines = [
 ]
 
 [tool.pytest.ini_options]
-log_cli = true
-log_cli_level = "CRITICAL"
-log_cli_format = "%(message)s"
+# log_cli = true
+# log_cli_level = "CRITICAL"
+# log_cli_format = "%(message)s"
 
 log_file = "pytest.log"
 log_file_level = "DEBUG"
